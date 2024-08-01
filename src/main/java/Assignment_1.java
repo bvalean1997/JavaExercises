@@ -1,4 +1,7 @@
 public class Assignment_1 {
+
+    // Day 8 - Intro to Java Assignment
+
     public static void main(String[] args) {
 
         // Exercise 1
