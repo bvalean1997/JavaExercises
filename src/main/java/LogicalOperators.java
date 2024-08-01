@@ -32,7 +32,7 @@ public class LogicalOperators {
         }
     }
 
-    // 7.
+// 7.
 
     public String compareNumbers(int number){
         if (number > 3 && number != 4){
@@ -180,7 +180,9 @@ public class LogicalOperators {
             System.out.println("");
         }
         }
-    }
+
+
+}
 
 
 
