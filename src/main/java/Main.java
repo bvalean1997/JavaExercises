@@ -5,22 +5,17 @@ public class Main {
 
         LogicalOperations op = new LogicalOperations();
 
-//        System.out.println(chkString.checkString("Evozon"));
+//        System.out.println(op.checkString("Evozon"));
 
-        LogicalOperations chkTwo = new LogicalOperations();
-//        System.out.println(chkTwo.checkTwoTypes("Evozon", 3));
+//        System.out.println(op.checkTwoTypes("Evozon", 3));
 
-        LogicalOperations forecastObject = new LogicalOperations();
-//        System.out.println(forecastObject.forecast(7));
+//        System.out.println(op.forecast(7));
 
-        LogicalOperations compareNumbersObject = new LogicalOperations();
-//        System.out.println(compareNumbersObject.compareNumbers(3));
+//        System.out.println(op.compareNumbers(3));
 
-        LogicalOperations printNumberObject = new LogicalOperations();
-//        System.out.println(printNumberObject.printNumber(11));
+//        System.out.println(op.printNumber(11));
 
-        LogicalOperations isNumberEvenObject = new LogicalOperations();
-//        System.out.println(.isNumberEven(4));
+//        System.out.println(op.isNumberEven(4));
 
 //        System.out.println(op.isEligibleToVote(4));
 
