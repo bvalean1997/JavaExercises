@@ -21,12 +21,15 @@ public class Main {
 
         LogicalOperators op = new LogicalOperators();
 
+//        System.out.println(op.checkBiggerNumber(5,3));
 //        System.out.println(op.checkString("Evozon"));
 //        System.out.println(op.checkTwoTypes("Evozon", 3));
 //        System.out.println(op.forecast(7));
 //        System.out.println(op.printNumber(11));
 //        System.out.println(op.isNumberEven(4));
 //        System.out.println(op.isEligibleToVote(4));
+//        System.out.println(op.higherNumberFromThree(5,9,3));
+
 //        op.countToHoundred(5);
 //        op.countToHoundredDescending(0);
 //        op.countRange(1,10);

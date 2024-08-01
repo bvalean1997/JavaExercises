@@ -2,6 +2,18 @@ public class LogicalOperators {
 
 // ------------------------------ IF - ELSE ------------------------------------------
 
+    // 3.
+    public int checkBiggerNumber(int number1, int number2) {
+        if (number1 > number2) {
+            return number1;
+        } else if (number1 == number2){
+            return number2;
+        } else {
+            return number2;
+        }
+    }
+
+    // 4.
     public String checkString(String text) {
         if (text.equals("Evozon")) {
             return "Learning text comparison";
@@ -11,7 +23,6 @@ public class LogicalOperators {
     }
 
     // 5.
-
     public String checkTwoTypes(String text, int number){
         if (text == "Evozon" && number <= 3) {
                 return text + " " + number;
@@ -22,7 +33,6 @@ public class LogicalOperators {
     }
 
     // 6.
-
     public String forecast (int number){
         if (number > 8 || number == 6) {
             return "The amount of snow this winter was(cm): " + number;
@@ -32,9 +42,8 @@ public class LogicalOperators {
         }
     }
 
-// 7.
-
-    public String compareNumbers(int number){
+    // 7.
+    public String compareNumber(int number){
         if (number > 3 && number != 4){
             return "The number is greater than 3 and not equal to 4";
         }
@@ -50,7 +59,6 @@ public class LogicalOperators {
     }
 
     // 8.
-
     public String printNumber(int number){
         switch (number) {
             case 1: return "The number is 1!";
@@ -68,7 +76,6 @@ public class LogicalOperators {
     }
 
     // 9.
-
     public boolean isNumberEven(int number) {
         if (number % 2 == 0) {
             return true;
@@ -78,12 +85,23 @@ public class LogicalOperators {
     }
 
     // 10.
-
     public boolean isEligibleToVote(int age){
         if (age >= 18) {
             return true;
         } else {
             return false;
+        }
+    }
+
+    // 11.
+    public int higherNumberAmongThree(int number1, int number2, int number3) {
+        if (number1 > number2 && number1 > number3) {
+            return number1;
+        } else if (number2 > number1 && number2 > number3) {
+            return number2;
+
+        } else  {
+            return number3;
         }
     }
 
