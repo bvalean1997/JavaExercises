@@ -21,6 +21,7 @@ public class Main {
 
         LogicalOperators op = new LogicalOperators();
 
+        // if - else
 //        System.out.println(op.checkBiggerNumber(5,3));
 //        System.out.println(op.checkString("Evozon"));
 //        System.out.println(op.checkTwoTypes("Evozon", 3));
@@ -30,6 +31,7 @@ public class Main {
 //        System.out.println(op.isEligibleToVote(4));
 //        System.out.println(op.higherNumberFromThree(5,9,3));
 
+        // for loops
 //        op.countToHoundred(5);
 //        op.countToHoundredDescending(0);
 //        op.countRange(1,10);
@@ -39,6 +41,28 @@ public class Main {
 //        System.out.println(op.addNumbers(1));
 //        System.out.println(op.average(1));
 //        op.drawPattern();
+
+        // while loop
+//    op.countdownHundred(110);
+//    op.countdownHundredNegative(5);
+//    op.countdownRange(20, 15);
+//    op.countdownSmallerToBigger(2,10);
+//    op.printHundredEvenNumbers();
+//    op.printHundredOddNumbers();
+//    op.addNumberRange();
+//    System.out.println(op.averageDivisibleNumbers(7,14));
+        op.fibonacciSequence();
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
