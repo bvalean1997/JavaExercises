@@ -1,4 +1,4 @@
-public class LogicalOperations {
+public class LogicalOperators {
 
 // ------------------------------ IF - ELSE ------------------------------------------
 

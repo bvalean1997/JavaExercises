@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        LogicalOperations op = new LogicalOperations();
+        LogicalOperators op = new LogicalOperators();
 
 //        System.out.println(op.checkString("Evozon"));
 
