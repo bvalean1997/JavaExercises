@@ -3,6 +3,11 @@
 public class Main {
     public static void main(String[] args) {
 
+        Assignment2 ex = new Assignment2();
+//        ex.printMyName();
+//        ex.printResults();
+
+
         Calculator calc = new Calculator();
 //        System.out.println(calc.divideNumbers(4, 6));
 //        System.out.println(calc.addTwoNumbers(5,10));
@@ -52,7 +57,7 @@ public class Main {
 //    op.addNumberRange();
 //    System.out.println(op.averageDivisibleNumbers(7,14));
 //        op.fibonacciSequence();
-    op.cozaLozaWoza();
+//    op.cozaLozaWoza();
 
 
 
