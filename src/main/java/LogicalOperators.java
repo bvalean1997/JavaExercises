@@ -312,12 +312,61 @@ public class LogicalOperators {
 
     // 9.
     public void fibonacciSequence(){
-    int i = 0;
-    while (i <= 20) {
-        i = i + 1;
-        System.out.println(i);
-        i++;
+        System.out.println(0);
+        System.out.println(1);
+        int i = 1;
+        int t1 = 0;
+        int t2 = i;
+        int count = 0;
+        while (count < 18) {
+            int t3 = t1 + t2;
+            System.out.println(t3);
+            t1 = t2;
+            t2 = t3;
+            i++;
+            count++;
+        }
     }
+
+    // 10.
+    public void cozaLozaWoza(){
+        int i = 1;
+        int count = 0;
+        while(i <= 110){
+
+            if (count % 11 == 0) {
+                System.out.println("");
+            }
+
+            if (i != 1 && count % 3 == 0 && count % 5 == 0 && count % 7 == 0) {
+                System.out.print("CozaLozaWoza ");
+            } else if (i % 3 == 0 && i % 5 == 0) {
+                System.out.print("CozaLoza ");
+            } else if (i % 3 == 0 && i % 7 == 0) {
+                System.out.print("CozaWoza ");
+            } else if (i % 5 == 0 && i % 7 == 0) {
+                System.out.print("WozaLoza ");
+            }  else if (i % 3 == 0) {
+                System.out.print("Coza ");
+            } else if (i % 5 == 0) {
+                System.out.print("Loza ");
+            } else if (i % 7 == 0) {
+                System.out.print("Woza ");
+            }
+            else {
+                System.out.print(i + " ");
+            }
+
+            count++;
+            i++;
+        }
+    }
+
+
+
+
+
+
     }
 
 
@@ -341,7 +390,9 @@ public class LogicalOperators {
 
 
 
-}
+
+
+
 
 
 

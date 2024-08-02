@@ -51,8 +51,8 @@ public class Main {
 //    op.printHundredOddNumbers();
 //    op.addNumberRange();
 //    System.out.println(op.averageDivisibleNumbers(7,14));
-        op.fibonacciSequence();
-
+//        op.fibonacciSequence();
+    op.cozaLozaWoza();
 
 
 
