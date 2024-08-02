@@ -2,6 +2,7 @@ public class Assignment2 {
 
     // Day 8 - Intro to Java Assignment 2
 
+    // 1.
     public void printMyName(){
         System.out.println("Hello");
         System.out.println("Bianca");
@@ -21,7 +22,18 @@ public class Assignment2 {
         System.out.println("d." + result_d);
     }
 
+    // Exercises from 2 to 8 can be found in Calculator class
 
+    // 9.
+    public void facePattern(){
+        System.out.println(" +" + "\"\"\"\"\"" + "+");
+        System.out.println("[| O O |]");
+        System.out.println(" |  ^  | ");
+        System.out.println(" | '-' | ");
+        System.out.println(" +" + "-----" + "+");
+
+
+    }
 
 
 

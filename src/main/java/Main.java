@@ -6,7 +6,7 @@ public class Main {
         Assignment2 ex = new Assignment2();
 //        ex.printMyName();
 //        ex.printResults();
-
+        ex.facePattern();
 
         Calculator calc = new Calculator();
 //        System.out.println(calc.divideNumbers(4, 6));
