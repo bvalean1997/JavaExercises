@@ -424,8 +424,11 @@ public class LogicalOperators {
 
     // 7.
     public void displayPattern(String[] array) {
-        for (int i = 0; i < 10; i++) {
-
+        for (int h = 0; h < 10; h++) {
+            for (int i = 0; i < 10; i++) {
+                System.out.print(array[i] + " ");
+            }
+            System.out.println(" " + '\n');
         }
     }
 
