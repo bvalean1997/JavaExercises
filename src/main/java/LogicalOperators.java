@@ -362,10 +362,93 @@ public class LogicalOperators {
         }
     }
 
+    // arrays
+    // 2.
+
+    public int[] populateArray(int length){
+        int[] myArray = new int[length];
+        for (int i = 0; i < length; i++) {
+            myArray[i] = i + 1;
+        }
+        return myArray;
+    }
 
 
 
+    // 3.
+    public int[] evenNumberArray(int[] array) {
+        int j = 0;
+        for (int i = 0; i <= 100; i++) {
+            if (i % 2 == 0) {
+                array[j] = i;
+                System.out.println(i);
+                j++;
+            }
+        }
+        return array;
+    }
 
+    // 4.
+
+    public float calculateAverage(int[] array){
+        int sum = 0;
+        int count = 0;
+        for(int i = 0; i < array.length; i++) {
+            sum = sum + array[i];
+            count = count + 1;
+        }
+        return (float) sum / count;
+    }
+
+    // 5.
+    public boolean checkString(String[] array, String string){
+        for (int i = 0; i < array.length; i++) {
+            if (array[i].equals(string)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+    // 6.
+    public int checkNumber(int[] array, int number){
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == number) {
+                return i;
+            }
+
+        }
+        return -1;
+    }
+
+    // 7.
+    public void displayPattern(String[] array) {
+        for (int i = 0; i < 10; i++) {
+
+        }
+    }
+
+    // 8.
+    public int[] checkAndReturnArray(int[] array, int number) {
+        int[] newArray;
+        if (checkNumber(array, number) >= 1){
+            newArray = new int[array.length -1];
+        } else {
+            newArray = new int[array.length];
+        }
+
+        int j = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] != number) {
+                newArray[j] = array[i];
+                j++;
+            } else {
+                continue;
+            }
+        }
+        return newArray;
+    }
 
     }
 

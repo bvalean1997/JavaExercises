@@ -5,6 +5,10 @@ public class Calculator {
         return firstNumber / secondNumber;
     }
 
+    public double divideNumbers(double firstNumber, double secondNumber) {
+        return firstNumber / secondNumber;
+    }
+
     // 2.1
     public int addTwoNumbers(int firstNumber, int secondNumber){
         return firstNumber + secondNumber;
@@ -74,7 +78,8 @@ public class Calculator {
         return pi * radius * radius;
     }
 
-
+    // Ex. 1 - Assignment - Arrays - overload all methods according to the principle of polymorphism
+    // Create at least two polymorphic methods for each method in the class.
 
 
 

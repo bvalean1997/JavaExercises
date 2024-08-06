@@ -32,12 +32,7 @@ public class Assignment2 {
         System.out.println(" | '-' | ");
         System.out.println(" +" + "-----" + "+");
 
-
     }
-
-
-
-
 
     }
 

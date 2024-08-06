@@ -3,10 +3,11 @@
 public class Main {
     public static void main(String[] args) {
 
+
         Assignment2 ex = new Assignment2();
 //        ex.printMyName();
 //        ex.printResults();
-        ex.facePattern();
+//        ex.facePattern();
 
         Calculator calc = new Calculator();
 //        System.out.println(calc.divideNumbers(4, 6));
@@ -23,6 +24,9 @@ public class Main {
 //        System.out.println(calc.speedInMilesPerHour(50,2,30,60));
 //        System.out.println(calc.circlePerimeter(10));
 //        System.out.println(calc.circleArea(20));
+
+        // polymorphism
+//        System.out.println(calc.divideNumbers(12.5F, 4.6F));
 
         LogicalOperators op = new LogicalOperators();
 
@@ -60,9 +64,29 @@ public class Main {
 //    op.cozaLozaWoza();
 
 
+        // arrays
+        Print print = new Print();
+        int[] myArray = op.populateArray(100);
+//        print.printArray(myArray);
+
+        int[] evenArray = new int[51];
+//        op.evenNumberArray(evenArray);
 
 
+        int[] averageArray = {1, 2, 3, 4};
+//        System.out.println(op.calculateAverage(averageArray));
 
+        String[] nameArray = {"A", "B", "C", "D", "E", "F"};
+//        System.out.println(op.checkString(nameArray,"X" ));
+
+        int[] arrayNumbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+//        System.out.println(op.checkNumber(arrayNumbers, 10));
+
+        String[] patternArray = new String[]{"-", "-", "-", "-", "-", "-", "-", "-", "-", "-"};
+//        op.displayPattern(patternArray);
+
+        int[] numberOfArrays = {1, 3, 3, 4, 5, 6, 7, 8, 9, 10};
+        print.printArray(op.checkAndReturnArray(numberOfArrays, 3));
 
 
 

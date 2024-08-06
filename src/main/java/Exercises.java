@@ -1,4 +1,5 @@
-public class Exercitiu_1 {
+public class Exercises {
+
 
     public static void main(String[] args) {
 
@@ -37,4 +38,6 @@ public class Exercitiu_1 {
     }
 
 
+
 }
+
